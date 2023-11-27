@@ -14,4 +14,4 @@ Salient features :
 7) Form to add new book and logout button both are provided in navbar .
 8) requirements.txt contains all the dependencies .
 9) Note :- Virtual environment was used to create the project . It contains two apps namely :- accounts , Book .
-10) New book form and Edit book form are shown below . ![new_book](new_book.png) ![New Book] ![Edit book](Edit_book.png) ![Edit book]
+10) New book form and Edit book form are shown below . ![new_book](new_book.png)  ![Edit book](Edit_book.png) 
