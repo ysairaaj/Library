@@ -14,4 +14,6 @@ Salient features :
 7) Form to add new book and logout button both are provided in navbar .
 8) requirements.txt contains all the dependencies .
 9) Note :- Virtual environment was used to create the project . It contains two apps namely :- accounts , Book .
-10) New book form and Edit book form are shown below . ![new_book](new_book.png)  ![Edit book](Edit_book.png) 
+10) New book form and Edit book form are shown below . ![new_book](new_book.png)  ![Edit book](Edit_book.png)
+11) Admin interface is also provided . It can be used to create ,edit , delete books . User data can also be created , edited and deleted . ![Admin interface](django_admin.png)
+12) However all the operations are provided by the webapp itself . So , all the operations on books can be done without admin interface too .
