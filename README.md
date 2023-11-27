@@ -21,11 +21,12 @@ Salient features :
 
 Steps to run the server in local machine :- 
 1) ``` python -m venv ./Library_env ```
-2) ``` cd Library_env\Scripts>  ```
-3) ``` activate ```
-4) This activates virtual environment .
-5) Go to the code directory on your local machine where "requirements.txt" is located . There use this command .
-6) ``` pip install -r requirements.txt ```
-7) Assuming you are in the right directory(same directory) . Use
-8) ``` python manage.py runserver ```
-9) Server is online . Use it using port number shown .
+2) ``` cd Library_env  ```
+3) ``` cd Scripts ```
+4) ``` activate ```
+5) This activates virtual environment .
+6) Go to the code directory on your local machine where "requirements.txt" is located . There use this command .
+7) ``` pip install -r requirements.txt ```
+8) Assuming you are in the right directory(same directory) . Use
+9) ``` python manage.py runserver ```
+10) Server is online . Use it using port number shown .
