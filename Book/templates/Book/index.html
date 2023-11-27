@@ -1,0 +1,25 @@
+{% extends "base.html"%}
+{% block start%} 
+
+<div class="container">
+  <ul class="list-group">
+    {% for book in books%}
+    <li class="list-group-item clearfix">
+      <img class="img-responsive img-rounded" src= "/media/{{book.book_image}}" alt=""/>
+      <h3 class="list-group-item-heading">
+        {{book.title}}
+      </h3>
+      <p class="list-group-item-text lead">
+        {{book.book_description |truncatechars:100}}
+        <br />  
+      </p>
+      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
+        
+        <a href="/book_detail/{{book.id}}" class="btn btn-primary">Details</a> 
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}

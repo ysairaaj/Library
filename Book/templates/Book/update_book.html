@@ -1,0 +1,45 @@
+{% extends "base.html"%}
+{% block start%} 
+
+<div class = "container  mt-5">
+    <form class ="col-6 mx-auto card p-3 shadow-lg"  method = "post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h1 >Update Book</h1>
+        <hr>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Title</label>
+          <input name = "title" value ="{{book.title}}"  type="text" class="form-control" >
+          <div id="emailHelp" class="form-text">Please enter name of the Book.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">ISBN number</label>
+          <input name="ISBN" value ="{{book.ISBN}}"  type="text" class="form-control" >
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Date of publication</label>
+            <input name="publication_date" value ="{{book.publication_date}}"  type="date" class="form-control" >
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Book description</label>
+            <input name="book_description" value ="{{book.book_description}}" type="text" class="form-control" >
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Import file</label>
+            <input name="file" value ="{{book.file}}" type="file" class="form-control" >
+        </div>  
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Import Image</label>
+            <input name="book_image" value ="{{book.book_image}}" type="file" class="form-control" >
+        </div>  
+
+        <p>  Cancel? <a href="/book_detail/{{book.id}}"> Go Back </a></p>
+
+        <button type="submit" class="btn btn-success">Update Book</button>
+      </form>
+
+
+
+</div>
+
+
+{% endblock %}
