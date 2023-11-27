@@ -10,8 +10,8 @@ Salient features :
 3) All the details of the book like preview image , publication date , ISBN , date of upload , name of uploader are available . ![Book detail](book_detail.png) 
 4) Back button is also provided to go back to homepage .
 5) Download button is provided to download the book .
-6) Edit and Delete option is available to the user who has uploaded the file . Other users cannot edit or delete it (View of other user shown . Note that the option for edit and delte are not available) .  ![Book detail (view of other user)](book_detail_other_user.png) 
+6) Edit and Delete option is available to the user who has uploaded the file . Other users cannot edit or delete it (View of other user shown . Note that the option for edit and delete are not available) .  ![Book detail (view of other user)](book_detail_other_user.png) 
 7) Form to add new book and logout button both are provided in navbar .
 8) requirements.txt contains all the dependencies .
 9) Note :- Virtual environment was used to create the project . It contains two apps namely :- accounts , Book .
-10) New book form and Edit book form are shown below . ![new_book](new_book.png) ![New Book] ![Edit book](edit_book.png) ![Edit book]
+10) New book form and Edit book form are shown below . ![new_book](new_book.png) ![New Book] ![Edit book](Edit_book.png) ![Edit book]
